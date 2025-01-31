@@ -3,7 +3,7 @@
 // 2. Esporta la funzione dal file.
 
 function hobbies (hobbyOne, hobbyTwo, hobbyThree) {
-    const hobbies = [hobbyOne.toString(), hobbyTwo.toString(), hobbyThree.toString()];
+    return [hobbyOne.toString(), hobbyTwo.toString(), hobbyThree.toString()];
 }
 
 module.exports = hobbies;
